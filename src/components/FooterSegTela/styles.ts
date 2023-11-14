@@ -1,10 +1,20 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  proximaTemporada: {
+  container: {
     backgroundColor: "#5757b8",
-    width:"100%",
-  
+    width: "100%",
+  },
+  context: {
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+  },
+  textContext: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "bold",
+    textShadowColor: "#000",
+    textShadowRadius: 5,
   },
   text: {
     color: "#fff",
@@ -16,7 +26,7 @@ export const styles = StyleSheet.create({
   },
   footer: {
     backgroundColor: "#354253",
-    height: 75,
+    height: 60,
     flexDirection: "row",
     justifyContent: "center",
     padding: 8,
@@ -38,5 +48,10 @@ export const styles = StyleSheet.create({
     height: 40,
     alignItems: "center",
     marginTop: 10,
+  },
+  icone: {
+    width: 20,
+    height: 20,
+    margin: 5,
   },
 });
