@@ -7,8 +7,8 @@ const Tab = createBottomTabNavigator();
 
 export default function TabRoutes() {
   return (
-    <Tab.Navigator screenOptions={{ headerShown: false }}>
-      <Tab.Screen name="Home" component={PrimeiraPagina} />
+    <Tab.Navigator screenOptions={{ headerShown: false, tabBarStyle:{backgroundColor:"#354253", borderTopColor:"#354253"} }}>
+      <Tab.Screen name="Decks" component={PrimeiraPagina} />
       <Tab.Screen name="Nivel" component={SegundaPagina} />
     </Tab.Navigator>
   )};
